@@ -33,7 +33,7 @@ apis:
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-followers-contact-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-favorites-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
