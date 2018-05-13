@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Delete My Following
+  description: Deletes the user with the id contact_id from the logged-in user's list
+    of contacts.
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
