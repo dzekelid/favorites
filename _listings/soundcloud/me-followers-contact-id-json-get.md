@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Get My Follower
+  description: Checks if the user with the id contact_id is a follower of the logged-in
+    user
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
