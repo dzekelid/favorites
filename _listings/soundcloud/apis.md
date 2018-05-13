@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-favorites-track-id-json-delete.md
-- name: SoundCloud Update User Favorite
-  description: Adds the given track to the given user's list of favorites.
+- name: SoundCloud Delete User Favorite
+  description: Deletes the given track from the given user's list of favorites.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/users-user-id-favorites-track-id-json-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/users-user-id-favorites-track-id-json-delete.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
