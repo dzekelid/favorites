@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Get My Favorite Track
+  description: Deletes the given track from the logged-in user's list of favorites.
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
