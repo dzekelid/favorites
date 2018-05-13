@@ -34,16 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-favorites-track-id-json-delete.md
-- name: SoundCloud Get My Following
-  description: Checks if the user with the id contact_id is in the logged-in user's
-    list of contacts.
+- name: SoundCloud Update My Following
+  description: Adds the user with the id contact_id to the logged-in user's list of
+    contacts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-followings-contact-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/me-followings-contact-id-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
