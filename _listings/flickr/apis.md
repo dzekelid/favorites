@@ -36,18 +36,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/rest-method-flickr-favorites-getcontext-get.md
-- name: Flickr Get Favorite List
-  description: Returns a list of the user's favorite photos. Only photos which the
-    calling user has permission to see are returned.
+- name: Flickr Get Favorite Context
+  description: Returns next and previous favorites for a photo in a user's favorites
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: http:://api.flickr.com//services
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/rest-method-flickr-favorites-getlist-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/rest-method-flickr-favorites-getcontext-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/rest-method-flickr-favorites-getlist-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/rest-method-flickr-favorites-getcontext-get-postman.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
