@@ -1,59 +1,112 @@
 ---
 name: Etsy
-description: Etsy is a website that focuses on handmade and vintage items, as well
-  as art and craft supplies. The items include art, photography, clothing, jewelry,
-  edibles, quilts, and toys. Etsy is modeled after open craft fairs that give sellers
-  personal storefronts where they can list their goods. The company charges users
-  a flat listing fee (of 20 cents per items), and takes a commission of 3.5% off all
-  items sold. Since its launch in June 2005, the site has continually added new widgets
-  and features, and has seen corresponding growth.
-image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+x-slug: etsy
+description: Find handmade, vintage, and unique goods that express who you are.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Woodworking
-- Weddings
-- Vintage
-- Toys
-- Supplies
-- Stack Network
-- Stack
-- Quilts
-- Product
-- Plants and Edibles
-- Pets
-- Patterns
-- Paper Goods
-- Needlecraft
-- Knitting
-- Jewelry
-- Housewares
-- Holidays
-- Glass
-- Geekery
-- Furniture
-- Dolls and Miniatures
-- Crochet
-- Crafts
-- Clothing
-- Children
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "187"
+tags: Favorites
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Delete Users User Favorites Users Target User
-  description: Delete a favorite listing for a user
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+- name: Etsy Get Users User Favorites Listings
+  x-api-slug: etsy
+  description: Finds all favorite listings for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings
+  tags: Users,Favorites,Listings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistings-get-openapi.md
+- name: Etsy Get Users User Favorites Listings Listing
+  x-api-slug: etsy
+  description: Finds a favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
+  tags: Users,Favorites,Listings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-get-openapi.md
+- name: Etsy Post Users User Favorites Listings Listing
+  x-api-slug: etsy
+  description: Creates a new favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
+  tags: Users,Favorites,Listings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-post-openapi.md
+- name: Etsy Delete Users User Favorites Listings Listing
+  x-api-slug: etsy
+  description: Delete a favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
+  tags: Users,Favorites,Listings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-delete-openapi.md
+- name: Etsy Get Users User Favorites Users
+  x-api-slug: etsy
+  description: Finds all favorite users for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users
+  tags: Users,Favorites,Users
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesusers-get-openapi.md
+- name: Etsy Get Users User Favorites Users Target User
+  x-api-slug: etsy
+  description: Finds a favorite user for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
+  tags: Users,Favorites,Users,Target,User
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-get-openapi.md
+- name: Etsy Post Users User Favorites Users Target User
+  x-api-slug: etsy
+  description: Creates a new favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
+  tags: Users,Favorites,Users,Target,User
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-post-openapi.md
+- name: Etsy Delete Users User Favorites Users Target User
+  x-api-slug: etsy
+  description: Delete a favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
+  tags: Users,Favorites,Users,Target,User
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-delete-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
+    the Etsy community, building their own Etsy-powered applications for the web,
+    desktop and mobile devices. Applications built on the API will connect buyers
+    with sellers, promote the handmade lifestyle, and support the craftspeople who
+    sell on Etsy.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/users-user-id-favorites-users-target-user-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
@@ -66,9 +119,23 @@ x-common:
 - type: x-copyright
   url: https://www.etsy.com/help/article/482/?ref=ftr
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/etsy
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/etsy
 - type: x-developer
   url: https://www.etsy.com/developers/
+- type: x-email
+  url: enaffiliates@etsy.com
+- type: x-email
+  url: selleraffiliate@etsy.com
+- type: x-email
+  url: developer@etsy.com
+- type: x-email
+  url: legal@etsy.com
+- type: x-email
+  url: dpo@etsy.com
+- type: x-email
+  url: dispute-resolution@etsy.com
 - type: x-forum
   url: https://www.etsy.com/developers/discussion
 - type: x-github
@@ -83,6 +150,8 @@ x-common:
   url: https://twitter.com/Etsy
 - type: x-website
   url: http://www.etsy.com/
+- type: x-website
+  url: http://etsy.com
 include: []
 maintainers:
 - FN: Kin Lane

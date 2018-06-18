@@ -1,32 +1,34 @@
 ---
 name: Stack Exchange
-description: Stack Exchange is a network of question and answer websites on diverse
-  topics in many different fields, each site covering a specific topic, where questions,
-  answers, and users are subject to a reputation award process. The sites are modeled
-  after Stack Overflow, a forum for computer programming questions that was the original
-  site in this network. The reputation system is designed to allow the sites to be
-  self-moderating.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+x-slug: stack-exchange
+description: After someone asks a question, members of the community propose answers.
+  Others vote on those answers. Very quickly, the answers with the most votes rise
+  to the top. You don???t have to read through a lot of discussion to find the best
+  answer.    Like to...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Streamrank
-- Stack
-- Question Answer
-- Plug in
-- My API Stack
-- Media
-- Imports
-- Content
-- Code
-- Citations
-- Answers
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "126"
+tags: Favorites
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Stack Exchange My Favorites
+  x-api-slug: stack-exchange
+  description: "Returns the questions favorites by the user associated with the given
+    access_token.\n \nThis method returns a list of questions."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
+  baseURL: https://api.stackexchange.com//2.2//me/favorites
+  tags: Favorites
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/mefavorites-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/mefavorites-get-openapi.md
 - name: Stack Exchange Get User Favorites
+  x-api-slug: stack-exchange
   description: "Get the questions that users in {ids} have favorited.\n \nThis method
     is effectively a view onto a user's favorites tab.\n \n{ids} can contain up to
     100 semicolon delimited ids, to find ids programatically look for user_id on user
@@ -36,15 +38,28 @@ apis:
     \ activity is the default sort.\n \n It is possible to create moderately complex
     queries using sort, min, max, fromdate, and todate.\n \nThis method returns a
     list of questions."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
-  humanURL: https://stackexchange.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
+  baseURL: https://api.stackexchange.com//2.2//users/{ids}/favorites
+  tags: Users,Favorites
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/usersidsfavorites-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/usersidsfavorites-get-openapi.md
+- name: Stack Exchange
+  x-api-slug: stack-exchange
+  description: After someone asks a question, members of the community propose answers.
+    Others vote on those answers. Very quickly, the answers with the most votes rise
+    to the top. You don???t have to read through a lot of discussion to find the best
+    answer.    Like to...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
   baseURL: https://api.stackexchange.com//2.2
   tags: Favorites
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/users-ids-favorites-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/users-ids-favorites-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/openapi.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
@@ -56,8 +71,14 @@ x-common:
   url: http://blog.stackoverflow.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stack-exchange
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stack-exchange
 - type: x-developer
   url: http://api.stackexchange.com/
+- type: x-email
+  url: legal@stackexchange.com
+- type: x-email
+  url: team@stackexchange.com
 - type: x-email
   url: team+api@stackexchange.com
 - type: x-error-codes
@@ -78,6 +99,8 @@ x-common:
   url: http://stackexchange.com/legal/api-terms-of-use
 - type: x-twitter
   url: https://twitter.com/StackExchange
+- type: x-website
+  url: http://stackexchange.com
 - type: x-website
   url: https://stackexchange.com/
 include: []
