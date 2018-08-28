@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Flickr
 x-complete: 1
@@ -133,32 +132,3 @@ paths:
       tags:
       - Favorites
       - Remove
-  /rest/?method=flickr.photos.getFavorites:
-    get:
-      summary: Photos Get Favorites
-      description: Returns the list of people who have favorited a given photo.
-      operationId: getRestMethodFlickr.photos.getfavorites
-      x-api-path-slug: restmethodflickr-photos-getfavorites-get
-      parameters:
-      - in: query
-        name: api_key
-        description: Your API application key
-      - in: query
-        name: format
-        description: Response format
-      - in: query
-        name: page
-        description: The page of results to return
-      - in: query
-        name: per_page
-        description: Number of users to return per page
-      - in: query
-        name: photo_id
-        description: The id of the photo to fetch the favoriters list for
-      responses:
-        200:
-          description: OK
-      tags:
-      - Photos
-      - GetFavorites
----

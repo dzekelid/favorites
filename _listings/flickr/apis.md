@@ -11,86 +11,73 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Favorites
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr Favorites Add
-  x-api-slug: flickr
+- name: Flickr - Favorites Add
+  x-api-slug: restmethodflickr-favorites-add-get
   description: Adds a photo to a user's favorites list.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.favorites.add
-  tags: Favorites,Add
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-add-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-add-get-openapi.md
-- name: Flickr Favorites Get List
-  x-api-slug: flickr
+- name: Flickr - Favorites Get List
+  x-api-slug: restmethodflickr-favorites-getlist-get
   description: Returns a list of the user's favorite photos. Only photos which the
     calling user has permission to see are returned.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.favorites.getList
-  tags: Favorites,GetList
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-getlist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-getlist-get-openapi.md
-- name: Flickr Favorites Get Public List
-  x-api-slug: flickr
+- name: Flickr - Favorites Get Public List
+  x-api-slug: restmethodflickr-favorites-getpubliclist-get
   description: Returns a list of favorite public photos for the given user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.favorites.getPublicList
-  tags: Favorites,GetPublicList
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-getpubliclist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-getpubliclist-get-openapi.md
-- name: Flickr Favorites Remove
-  x-api-slug: flickr
+- name: Flickr - Favorites Remove
+  x-api-slug: restmethodflickr-favorites-remove-get
   description: Adds a photo to a user's favorites list.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.favorites.remove
-  tags: Favorites,Remove
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-remove-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-favorites-remove-get-openapi.md
-- name: Flickr Photos Get Favorites
-  x-api-slug: flickr
-  description: Returns the list of people who have favorited a given photo.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.photos.getFavorites
-  tags: Photos,GetFavorites
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-photos-getfavorites-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/restmethodflickr-photos-getfavorites-get-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
-  humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services/
-  tags: Favorites
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base

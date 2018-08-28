@@ -9,26 +9,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: Favorites
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange My Favorites
-  x-api-slug: stack-exchange
+- name: Stack Exchange - My Favorites
+  x-api-slug: mefavorites-get
   description: "Returns the questions favorites by the user associated with the given
     access_token.\n \nThis method returns a list of questions."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//me/favorites
-  tags: Favorites
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/mefavorites-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/mefavorites-get-openapi.md
-- name: Stack Exchange Get User Favorites
-  x-api-slug: stack-exchange
+- name: Stack Exchange - Get User Favorites
+  x-api-slug: usersidsfavorites-get
   description: "Get the questions that users in {ids} have favorited.\n \nThis method
     is effectively a view onto a user's favorites tab.\n \n{ids} can contain up to
     100 semicolon delimited ids, to find ids programatically look for user_id on user
@@ -40,27 +42,20 @@ apis:
     list of questions."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
   humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2//users/{ids}/favorites
-  tags: Users,Favorites
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/usersidsfavorites-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/usersidsfavorites-get-openapi.md
-- name: Stack Exchange
-  x-api-slug: stack-exchange
-  description: After someone asks a question, members of the community propose answers.
-    Others vote on those answers. Very quickly, the answers with the most votes rise
-    to the top. You dont have to read through a lot of discussion to find the best
-    answer.    Like to...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
-  humanURL: http://stackexchange.com
-  baseURL: https://api.stackexchange.com//2.2
-  tags: Favorites
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base

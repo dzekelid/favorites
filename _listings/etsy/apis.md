@@ -6,108 +6,130 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Favorites
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Users User Favorites Listings
-  x-api-slug: etsy
+- name: Etsy - Get Users User Favorites Listings
+  x-api-slug: usersuser-idfavoriteslistings-get
   description: Finds all favorite listings for a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings
-  tags: Users,Favorites,Listings
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistings-get-openapi.md
-- name: Etsy Get Users User Favorites Listings Listing
-  x-api-slug: etsy
+- name: Etsy - Get Users User Favorites Listings Listing
+  x-api-slug: usersuser-idfavoriteslistingslisting-id-get
   description: Finds a favorite listing for a user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
-  tags: Users,Favorites,Listings
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-get-openapi.md
-- name: Etsy Post Users User Favorites Listings Listing
-  x-api-slug: etsy
+- name: Etsy - Post Users User Favorites Listings Listing
+  x-api-slug: usersuser-idfavoriteslistingslisting-id-post
   description: Creates a new favorite listing for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
-  tags: Users,Favorites,Listings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-post-openapi.md
-- name: Etsy Delete Users User Favorites Listings Listing
-  x-api-slug: etsy
-  description: Delete a favorite listing for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/listings/{listing_id}
-  tags: Users,Favorites,Listings
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-delete-openapi.md
-- name: Etsy Get Users User Favorites Users
-  x-api-slug: etsy
-  description: Finds all favorite users for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users
-  tags: Users,Favorites,Users
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesusers-get-openapi.md
-- name: Etsy Get Users User Favorites Users Target User
-  x-api-slug: etsy
-  description: Finds a favorite user for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
-  tags: Users,Favorites,Users,Target,User
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-get-openapi.md
-- name: Etsy Post Users User Favorites Users Target User
-  x-api-slug: etsy
-  description: Creates a new favorite listing for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
-  tags: Users,Favorites,Users,Target,User
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-post-openapi.md
-- name: Etsy Delete Users User Favorites Users Target User
-  x-api-slug: etsy
-  description: Delete a favorite listing for a user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/favorites/users/{target_user_id}
-  tags: Users,Favorites,Users,Target,User
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-delete-openapi.md
-- name: Etsy
-  x-api-slug: etsy
-  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
-    the Etsy community, building their own Etsy-powered applications for the web,
-    desktop and mobile devices. Applications built on the API will connect buyers
-    with sellers, promote the handmade lifestyle, and support the craftspeople who
-    sell on Etsy.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private/
-  tags: Favorites
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-post-openapi.md
+- name: Etsy - Delete Users User Favorites Listings Listing
+  x-api-slug: usersuser-idfavoriteslistingslisting-id-delete
+  description: Delete a favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoriteslistingslisting-id-delete-openapi.md
+- name: Etsy - Get Users User Favorites Users
+  x-api-slug: usersuser-idfavoritesusers-get
+  description: Finds all favorite users for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesusers-get-openapi.md
+- name: Etsy - Get Users User Favorites Users Target User
+  x-api-slug: usersuser-idfavoritesuserstarget-user-id-get
+  description: Finds a favorite user for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-get-openapi.md
+- name: Etsy - Post Users User Favorites Users Target User
+  x-api-slug: usersuser-idfavoritesuserstarget-user-id-post
+  description: Creates a new favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-post-openapi.md
+- name: Etsy - Delete Users User Favorites Users Target User
+  x-api-slug: usersuser-idfavoritesuserstarget-user-id-delete
+  description: Delete a favorite listing for a user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/usersuser-idfavoritesuserstarget-user-id-delete-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

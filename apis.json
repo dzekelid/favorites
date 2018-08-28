@@ -1,0 +1,223 @@
+{
+	"name": "Streadata.io API Gallery - Favorites",
+	"description": "This is a repository of favorites APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/favorites.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://favorites.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plivo",
+			"x-api-slug": "plivo",
+			"description": "Voice & SMS API Platform: Plivo enables businesses and developers to tap into powerful Voice and SMS capabilities without carrier lock-in.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg",
+			"humanURL": "http:///account",
+			"baseURL": "https:///",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/plivo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The TVDB",
+			"x-api-slug": "the-tvdb",
+			"description": "TheTVDB.com is a community driven database of television shows. All content and images on the site have been contributed by the sites users; the site uses moderated editing to maintain its own standards. The database schema and website are open source under the GNU General Public License.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg",
+			"humanURL": "http://thetvdb.com",
+			"baseURL": "https://api-dev.thetvdb.com//",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/the-tvdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Favorites",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Favorites",
+	"include": [
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Plivo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/plivo/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "The TVDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/the-tvdb/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/favorites/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
